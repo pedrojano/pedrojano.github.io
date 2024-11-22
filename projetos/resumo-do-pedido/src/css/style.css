@@ -1,0 +1,109 @@
+body {
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+}
+
+.fundo-papel-de-parede {
+    width: 100%;
+}
+
+.painel {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 450px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+.imagem-menina img {
+    border-radius:  25px 25px 0px 0px;
+    width: 100%;
+}
+
+.descricao h1{
+    font-weight: 900;  
+    padding: 30px 15px 10px;
+    
+}
+
+.descricao p{
+    padding: 0px 15px ;
+    color: hsl(224, 23%, 55%);
+}
+.valor {
+    background-color: hsl(225, 100%, 96%);
+    width: 350px;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    margin: 50px 50px;
+}
+
+.valor .img-plano img {
+    width: 100%;
+    display: inline;
+    float: left;
+    margin: 30px;
+    
+}
+
+.valor .annual {
+    font-size: 15px;
+    text-align: center;
+    margin: 40px;
+    
+}
+
+.valor .annual h2 {
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.valor .annual p {
+    color:  hsl(224, 23%, 55%);
+    padding: 10px;
+    font-size: 12px;
+}
+
+.valor .change {
+    color: hsl(225, 100%, 94%);
+    display: inline;
+    text-align: right;
+    float: right;
+    margin: 50px;
+    border: 50px;
+    
+    
+}
+
+.valor .change a {
+    text-align: center;
+    color:  hsl(224, 23%, 55%);
+}
+
+.btn .proceed-to-payment {
+    background-color:  hsl(245, 38%, 50%);
+    color: whitesmoke;
+    border: none;
+    font-size: 17px;
+    border-radius: 15px;
+    padding: 20px 90px;
+    font-weight: 900;
+}
+
+.btn2 .cancel-order {
+    color: black;
+    margin: 15px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 30px 90px 20px;
+    text-align: center;
+    font-weight: 900;
+}
+    

@@ -1,0 +1,41 @@
+body {
+    font-family: "Outfit";
+    font-size: 15px;
+}
+.fundo {
+    background-color: hsl(212, 45%, 89%);
+    width: 1340px;
+    height: 600px;
+}
+  .cartao {
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    height: 550px;
+    width: 350px;
+    border-radius: 25px;
+    text-align: center;
+}  
+
+.cartao .imagem-qr img {
+    max-width: 320px;
+    border-radius: 25px;
+    transform: translateY(5%);
+}
+
+.cartao .titulo h1{
+    color:  hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 17px;  
+    padding: 6px 15px 10px;
+    transform: translateY(25%);
+}
+
+.cartao .sobre p {
+    color:  hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+}

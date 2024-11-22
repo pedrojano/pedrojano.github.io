@@ -1,0 +1,109 @@
+body {
+    font-family: 'Inter';
+    font-size: 18px;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.cartao {
+    background-color: hsl(0, 0%, 12%);
+    display: grid;
+    place-items: center;
+    align-items: center;
+    width: 650px;
+    height: 800px;
+    margin-left: 450px;
+    border-radius: 25px;
+}
+
+.imagem-cartao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-cartao img {
+    max-width: 30%;
+    clip-path: circle(50%);
+}
+
+.informacoes {
+    margin: 0 auto;
+    top: -85px;
+    align-items: center;
+}
+
+.informacoes h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.informacoes p {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.links ul {
+    background-color: hsl(0, 0%, 12%);
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    width: 400px;
+    height: 290px;
+
+}
+
+.links li {
+    background-color: hsl(0, 0%, 20%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 360px;
+    height: 60px;
+    margin: 9px;
+    border-radius: 25px;
+}
+
+.links a {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 357px;
+    height: 57px;
+    border-radius: 25px;
+
+}
+
+.links ul li a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    box-shadow: inset 0 0 10px rgb(0, 0, 0);
+    cursor: pointer black;
+}
+ 

@@ -1,0 +1,126 @@
+ body {
+   font-family: 'Outfit';
+   font-size: 18px;
+   background-color: hsl(217, 54%, 11%);
+ }
+
+
+ .sombra {
+   background-color: hsl(216, 50%, 16%);
+   position: absolute;
+   top: 75%;
+   transform: translate(-50%, -50%);
+   left: 660px;
+   height: 700px;
+   width: 420px;
+   border-radius: 30px;
+   text-align: center;
+ }
+
+ .cartao {
+   background-color: hsl(215, 32%, 27%);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   height: 680px;
+   width: 390px;
+   border-radius: 15px;
+   text-align: center;
+ }
+
+ .imagem-cartao img {
+   margin-top: 20px;
+   border-radius: 15px;
+   width: 90%;
+ }
+
+ .descricao h1 {
+   color: hsl(0, 0%, 100%);
+   font-weight: 700;
+   padding-top: 20px;
+   padding-left: 20px;
+   text-align: left;
+ }
+
+ .descricao p {
+   color: hsl(215, 51%, 70%);
+   padding-top: 15px;
+   text-align: left;
+   padding-left: 20px;
+ }
+
+ .informacao {
+   padding-top: 15px;
+   padding-left: 15px;
+   height: 40px;
+ }
+
+ .imagem-diamante img {
+   align-items: center;
+   float: left;
+   padding-left: 7px;
+ }
+
+ .informacao .eth {
+   font-size: 15px;
+   font-weight: 600;
+   color: hsl(178, 100%, 50%);
+   padding-left: 25px;
+   text-align: left;
+
+ }
+
+ .informacao .days-left {
+   position: relative;
+   left: 330px;
+   transform: translate(-54%, -209%);
+   font-size: 15px;
+   font-weight: 200;
+   color: hsl(215, 51%, 70%);
+   width: 80px;
+   height: 20px;
+   text-align: right;
+   padding-right: 3px;
+ }
+
+ .informacao .imagem-relogio img {
+   transform: translate(540%, -110%);
+   text-align: right;
+ }
+
+ .criador {
+   width: 330px;
+   transform: translateX(10%);
+   height: 100px;
+   border-top: 2px solid hsl(215, 51%, 70%);
+ }
+
+ .criador .imagem-criador img {
+   width: 15%;
+   transform: translate(-250%, 10%);
+   border-radius: 50%; 
+   background-color: hsl(0, 0%, 100%);;
+ }
+
+ .criador .creation {
+   font-size: 16px;
+   font-weight: 400;
+   color: hsl(215, 51%, 70%);
+   ;
+   align-items: center;
+   width: 100px;
+   padding-left: 25px;
+   text-align: left;
+   transform: translate(51%, -180%);
+ }
+
+ .criador .destacado {
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 100px;
+  transform: translate(170%, -279%);
+  
+ }

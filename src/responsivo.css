@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+    
+    main{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .cartao {
+      width: 70%;
+      height: auto; 
+      margin: 20px auto;
+      align-items: center;
+      justify-content: center; 
+      /* display: block; */
+    }
+    .informacoes{
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .informacoes h1{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: auto;
+        font-size: 13px;
+
+    }
+
+    .informacoes h2{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .links {
+      flex-direction: column; 
+      width: 50%; 
+      height: auto; 
+    }
+  
+    .links ul {
+      flex-direction: column; 
+      width: 100%;
+      height: auto;
+    }
+  
+    .links li {
+      width: 100%;
+    }
+  
+    .links a {
+      width: 90%;
+      font-size: 15px;
+    }
+  }
+
+  
