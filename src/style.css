@@ -1,0 +1,202 @@
+body {
+    font-family: 'Poppins';
+    background-color: hsl(0, 0%, 8%);
+}
+
+
+header {
+    margin-top: 50px;
+    display: flex;
+    height: 450px;
+}
+
+.imagem-titulo {
+    display: flex;
+    align-items: flex-start;
+    height: 650px;
+    width: 500px;
+}
+
+.foto {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+    height: 650px;
+    width: 500px;
+}
+
+.foto img {
+    max-width: 75%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.informacoes {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacoes .titulo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.informacoes .titulo h1 {
+    color: hsl(75, 94%, 57%);
+    ;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.informacoes .pedro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.informacoes .pedro h3 {
+    color: hsl(75, 94%, 57%);
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.informacoes .sobre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    height: 250px;
+}
+
+.informacoes .sobre p {
+    color: hsl(75, 94%, 57%);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    width: 850px;
+    border-radius: 15px;
+}
+
+.projetos {
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    list-style-type: none;
+    height: 220px;
+    width: 750px;
+}
+.projetos h3 {
+    color: hsl(75, 94%, 57%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.projetos nav {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+}
+
+.projetos ol {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    height: 220px;
+}
+
+.projetos li {
+    background-color: hsl(0, 0%, 20%);
+    width: 150px;
+    height: 100px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.projetos a {
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    width: 110px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+footer {
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes {
+    background-color:  hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.redes ol {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 35px;
+}
+
+.redes li {
+    background-color: hsl(0, 0%, 20%);
+    list-style-type: none;
+    margin: 20px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.redes a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 5px;
+    width: 40px;
+    height: 20px;
+}
+
+.redes i {
+    color:hsl(75, 94%, 57%);
+}
